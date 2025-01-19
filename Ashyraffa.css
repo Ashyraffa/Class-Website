@@ -67,3 +67,7 @@ a:hover {
     color: #333;
     text-align: center;
 }
+
+.github {
+    animation: rotate 3s linear infinite;
+}
