@@ -153,7 +153,7 @@ a:hover {
         font-size: 1.8em;
     }
 
-    .info, .tentang, .deskripsi, .siswa, .foto {
+    .info, .tentang, .deskripsi, .siswa, .foto img {
         font-size: 1em;
         padding: 10px;
     }
