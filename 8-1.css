@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header .judul {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: aquamarine;
+}
+
+.info {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+.info-siswa {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    padding: 10px 0;
+    line-height: 1;
+    background-color: #f4f4f4;
+}
+
+.judul_2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.tentang {
+    text-align: center;
+    color:#333;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+.judul_3 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.motto {
+    text-align: center;
+    color: #555;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 1.3em;
+    line-height: 2;
+}
+
+.judul_4 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.deskripsi {
+    text-align: center;
+    color:#333;
+    margin-top: 20px;
+    line-height: 1;
+    font-size: 1.3em;
+}
+
+.siswa {
+    text-align: center;
+    color: #555;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 1.3em;
+    line-height: 1.2;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+    gap: 10px; 
+}
+
+
+a {
+    color: blue; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.hak {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 1em;
+
+}
+
+.slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: auto;
+        height: auto;
+}
+
+.judul_6 {
+    text-align: center;
+    color:#333;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .judul {
+        font-size: 1.8em;
+    }
+
+    .info, .tentang, .deskripsi, .siswa {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .slider img {
+        max-width: 100%;
+    }
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: auto;
+    height: auto;
+}
+
+.pencipta {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+.pencipta a {
+    color: blue;
+    text-decoration: none;
+}
+
+.pencipta a:hover {
+    text-decoration: underline;
+}
