@@ -8,8 +8,8 @@
         {
             "type": "msedge",
             "request": "launch",
-            "name": "Open 8-1.html",
-            "file": "d:\\Users\\raffa\\Dokumen\\halaman8.1\\8-1.html"
+            "name": "Open index.html",
+            "file": "d:\\Users\\raffa\\Dokumen\\halaman8.1\\index.html"
         }
     ]
 }

@@ -17,6 +17,7 @@ body {
       padding-right: 0px;
 }
 
+
 header .judul {
     text-align: center;
     color: #333;
@@ -176,6 +177,7 @@ a:hover {
         font-size: 1.8em;
     }
 
+
     .info, .tentang, .deskripsi, .siswa, .foto img, div {
         font-size: 1em;
         padding: 10px;
@@ -224,13 +226,40 @@ a:hover {
 
 }
 
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: aquamarine;
+
+
+.opsi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    gap: 20px;
+}
+
+.tombol {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: aquamarine;
+        color: #333;
+        border: #333;
+        border-radius: 5px;
+        cursor: pointer;
+    
+}
+
+.judul_8 {
+    text-align: center;
     color: #333;
-    border: #333;
-    border-radius: 5px;
-    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.easteregg {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.2em;
 }
