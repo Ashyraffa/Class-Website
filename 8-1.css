@@ -73,19 +73,6 @@ header .judul {
     line-height: 2;
 }
 
-.roster {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #333;
-    background-color: #f4f4f4;
-    margin-top: 20px;
-    padding: 10px 0;
-    font-size: 1.2em;
-    line-height: 1.5;
-    gap: 15px;
-}
 
 .judul_4 {
     text-align: center;
@@ -112,16 +99,6 @@ header .judul {
     line-height: 1.2;
 }
 
-.foto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 20px;
-    margin-top: 20px;
-    padding: 10px 0;
-    background-color: #f4f4f4;
-}
 
 
 
