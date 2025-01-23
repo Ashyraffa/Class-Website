@@ -26,6 +26,15 @@ body {
     font-size: 1.5em;
 }
 
+.list {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
 
 .list1 {
     text-align: center;
