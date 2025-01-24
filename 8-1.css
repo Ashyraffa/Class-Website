@@ -145,25 +145,7 @@ a:hover {
     font-size: 1.5em;
 }
 
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
 
-    .judul {
-        font-size: 1.8em;
-    }
-
-
-    .info, .tentang, .deskripsi, .siswa, .foto img, div {
-        font-size: 1em;
-        padding: 10px;
-    }
-
-    .slider img {
-        max-width: 100%;
-    }
-}
 
 .form {
     display: flex;
