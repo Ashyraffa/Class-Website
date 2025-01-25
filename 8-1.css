@@ -222,3 +222,14 @@ a:hover {
     margin-top: 20px;
     font-size: 1.2em;
 }
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    gap: 10px;
+}
