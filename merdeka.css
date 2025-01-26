@@ -6,8 +6,52 @@ body {
     color: #333;
 }
 
-.video {
-    display: flex;
+header {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: aquamarine;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+}
+
+#panji {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    max-width: 300px;
+}
+
+.container2 {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+
+}
+
+#trend {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 640px;
+    max-height: 480px;
+}
+
+.end {
+    display: block;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+    gap: 20px;
 }
