@@ -7,7 +7,7 @@ function gantiGambar() {
     document.getElementById("gambar").src = gambarArray[gambarIndex];
 }
 
-setInterval(gantiGambar, 3000);
+setInterval(gantiGambar, 2000);
 
 
 
