@@ -54,3 +54,28 @@ header {
     background-color: #f4f4f4;
 }
 
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: aquamarine;
+    color: #333;
+    border: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: greenyellow;
+    color: black;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
