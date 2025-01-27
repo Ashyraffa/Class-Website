@@ -4,7 +4,6 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background-color: white;
     color: #333;
-    line-height: 1.6;
 }
 
 .banner {
@@ -114,14 +113,6 @@ header .judul {
 }
 
 
-a {
-    color: blue; 
-    text-decoration: none; 
-}
-
-a:hover {
-    text-decoration: underline; 
-}
 
 .hak {
     text-align: center;
@@ -131,14 +122,6 @@ a:hover {
 
 }
 
-.slider {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        max-width: auto;
-        height: auto;
-}
 
 .judul_6 {
     text-align: center;
@@ -149,30 +132,16 @@ a:hover {
 
 
 
-.form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: auto;
-    height: auto;
-}
-
-.pencipta {
-    text-align: center;
-    color: #333;
-    margin-top: 20px;
-    font-size: 1.3em;
-}
-
-.pencipta a {
+a {
     color: blue;
     text-decoration: none;
 }
 
-.pencipta a:hover {
+a:hover {
     text-decoration: underline;
 }
+
+
 
 .form {
     display: flex;
@@ -211,6 +180,17 @@ a:hover {
     
 }
 
+.tombol:hover {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: greenyellow;
+    color: black;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .judul_8 {
     text-align: center;
     color: #333;
@@ -234,4 +214,32 @@ a:hover {
     background-color: #f4f4f4;
     padding: 10px 0;
     gap: 10px;
+}
+
+.solve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tom1, #tom2, #tom3  {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: aquamarine;
+        color: #333;
+        border: #333;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+#tom1:hover, #tom2:hover, #tom3:hover {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: greenyellow;
+    color: black;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
 }
