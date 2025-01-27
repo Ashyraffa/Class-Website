@@ -49,11 +49,13 @@ header .judul {
     font-size: 1.5em;
 }
 
-.tentang {
+.about {
+    display: block;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color:#333;
     margin-top: 20px;
-    font-size: 1.3em;
 }
 
 .judul_3 {
