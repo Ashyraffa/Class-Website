@@ -228,7 +228,7 @@ a:hover {
     justify-content: center;
 }
 
-#tom1, #tom2, #tom3  {
+#tom1, #tom2, #tom3, #tom4  {
         display: block;
         width: 100%;
         padding: 10px;
@@ -239,7 +239,7 @@ a:hover {
         cursor: pointer;
 }
 
-#tom1:hover, #tom2:hover, #tom3:hover {
+#tom1:hover, #tom2:hover, #tom3:hover, #tom4:hover {
     display: block;
     width: 100%;
     padding: 10px;
