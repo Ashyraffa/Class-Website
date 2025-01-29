@@ -48,12 +48,14 @@
             <h2 class="judul_6">Foto Kenangan Kami:</h2>
             <div>
                 <img id="gambar" src="gambar1.jpg" alt="Gambar1" style="width:100%;">
+                <br>
+
             </div>
             <div class="form">
-                <form>
+                <form action="process.php" method="post">
                     <h3>Komentar:</h3>
                     <p>(Utk saat ini, form tidak ada gunanya.)</p>
-                    <textarea id="question" rows="10" cols="30"></textarea>
+                    <textarea id="question" rows="10" cols="30" type="text" question="question" required></textarea>
                     <button class="tombol" onclick="alert('Yaelah nigger jomok rasis dah dibilang masih belum berguna ini dipake juga😑')">Kirim</button>
                 </form>
             </div>
@@ -132,11 +134,11 @@
             </div>
             <div class="option">
                 <button type="button" onclick="document.getElementById('demo').innerHTML = 'KAMU RASIS BANGET PUTIH!!'">Wesdebes</button>
-                <button type="button" onclick="document.getElementById('demo').innerHTML = 'KAMU HITAM NIGGER!'">Jomokers</button>
+                <button type="button" onclick="document.getElementById('demo').innerHTML = 'KAMU HITAM NIGGER!!'">Jomokers</button>
             </div>
             <br>
             <div class="solve">
-                <button type="button" onclick="document.getElementById('demo').style.display='none'">Click here to solve Racism!</button>
+                <button type="button" onclick="document.getElementById('demo').style.display = 'none'">Click here to solve Racism!</button>
             </div>
             <br>
             <br>

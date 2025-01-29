@@ -10,8 +10,4 @@ function gantiGambar() {
 setInterval(gantiGambar, 2000);
 
 
-console.log('Hello World!')
-
-
-
 
