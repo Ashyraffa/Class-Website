@@ -2,21 +2,24 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    color: #333;
     margin: 20px;
 }
 
 header {
     text-align: center;
+    background-color: aquamarine;
     color: #333;
     margin-top: 20px;
     padding: 30px 0;
-    background-color: aquamarine;
 }
 
 .title {
+    display: block;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color: #333;
-    font-size: 1.5em;
 }
 
 .faq {
@@ -41,18 +44,13 @@ header {
     border-top: none;
 }
 
-.kembali {
+.Kembali {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f4f4f4;
     padding: 10px 0;
     margin-top: 20px;
-}
-
-.contact {
-    text-align: center;
-    color: #333;
 }
 
 #tom {
@@ -77,15 +75,6 @@ header {
     cursor: pointer;
 }
 
-.link {
-    color: blue;
-    text-decoration: none;
-}
-
-.link:hover {
-    text-decoration: underline;
-}
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
