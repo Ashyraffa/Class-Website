@@ -4,6 +4,7 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background-color: white;
     color: #333;
+    margin: 20px;
 }
 
 .header-button {
@@ -177,9 +178,9 @@ a {
 
 
 .opsi {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(100px, 1fr));
     margin-top: 20px;
     padding: 10px 0;
     background-color: #f4f4f4;
