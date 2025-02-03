@@ -178,9 +178,9 @@ a {
 
 
 .opsi {
-    display: grid;
-    grid-template-columns: 
-    repeat(auto-fit, minmax(100px, 1fr));
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
     padding: 10px 0;
     background-color: #f4f4f4;
@@ -293,4 +293,12 @@ a {
     border: black;
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .opsi {
+        display: grid;
+        grid-template-columns: 
+        repeat(auto-fit, minmax(100px, 1fr));
+    }
 }
