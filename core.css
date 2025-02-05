@@ -19,7 +19,7 @@ header {
 .container {
     text-align: center;
     position: relative;
-    height: 75vh;
+    height: 100vh;
 }
 
 #prank {
@@ -34,7 +34,7 @@ header {
 .container2 {
     text-align: center;
     position: relative;
-    height: 75vh;
+    height: 100vh;
 }
 
 #yusuf {
@@ -60,7 +60,7 @@ header {
 .container3 {
     position: relative;
     text-align: center;
-    height: 75vh;
+    height: 100vh;
 }
 
 #panji {
@@ -75,19 +75,19 @@ header {
 .container4 {
     position: relative;
     text-align: center;
-    height: 75vh;
+    height: 100vh;
 }
 
 .container5 {
     position: relative;
     text-align: center;
-    height: 75vh;
+    height: 100vh;
 }
 
 .container6 {
     position: relative;
     text-align: center;
-    height: 75vh;
+    height: 100vh;
 }
 
 #ashy {
@@ -161,5 +161,5 @@ a {
 .image {
     position: relative;
     text-align: center;
-    height: 75vh;
+    height: 100vh;
 }
