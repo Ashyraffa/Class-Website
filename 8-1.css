@@ -4,7 +4,6 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background-color: white;
     color: #333;
-    margin: 20px;
 }
 
 .header-button {
@@ -55,6 +54,12 @@ header .judul {
     font-size: 1.5em;
 }
 
+.e {
+    color: #333;
+    text-align: center;
+    line-height: none;
+}
+
 .about {
     display: block;
     align-items: center;
@@ -62,6 +67,11 @@ header .judul {
     text-align: center;
     color:#333;
     margin-top: 20px;
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 .link {
@@ -241,7 +251,7 @@ a {
     justify-content: center;
 }
 
- #tom2, #tom3, #tom4, #tom5 {
+ #tom2, #tom3, #tom4, #tom5, #tom6 {
         display: block;
         width: 100%;
         padding: 10px;
@@ -252,7 +262,7 @@ a {
         cursor: pointer;
 }
 
- #tom2:hover, #tom3:hover, #tom4:hover, #tom5:hover {
+ #tom2:hover, #tom3:hover, #tom4:hover, #tom5:hover, #tom6:hover {
     display: block;
     width: 100%;
     padding: 10px;
@@ -301,5 +311,6 @@ a {
         grid-template-columns: 
         repeat(auto-fit, minmax(100px, 1fr));
     }
+
 }
 

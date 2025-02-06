@@ -1,5 +1,5 @@
 let gambarIndex = 0;
-let gambarArray = ["EmierdanNadia.jpg", "Guprin.jpg", "Aufa dan Holy.jpg", "a.jpg", "b.jpg", "c.jpg", "d.jpg", "e.jpg", "f.jpg", "g.jpg", "h.jpg", "i.jpg", ]
+let gambarArray = ["Guprin.jpg", "Aufa dan Holy.jpg", "b.jpg", "c.jpg", "d.jpg", "e.jpg", "f.jpg", "g.jpg", "h.jpg", "i.jpg", ]
 
 
 function gantiGambar() {
