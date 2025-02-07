@@ -9,3 +9,4 @@ document.querySelectorAll('.pertanyaan').forEach(button => {
 });
 
 console.log('Okay.')
+

@@ -54,11 +54,7 @@ header .judul {
     font-size: 1.5em;
 }
 
-.e {
-    color: #333;
-    text-align: center;
-    line-height: none;
-}
+
 
 .about {
     display: block;
@@ -251,7 +247,7 @@ a {
     justify-content: center;
 }
 
- #tom2, #tom3, #tom4, #tom5, #tom6 {
+ #tom2, #tom3, #tom4, #tom5, #tom6, #tom7 {
         display: block;
         width: 100%;
         padding: 10px;
@@ -262,7 +258,7 @@ a {
         cursor: pointer;
 }
 
- #tom2:hover, #tom3:hover, #tom4:hover, #tom5:hover, #tom6:hover {
+ #tom2:hover, #tom3:hover, #tom4:hover, #tom5:hover, #tom6:hover, #tom7:hover {
     display: block;
     width: 100%;
     padding: 10px;
