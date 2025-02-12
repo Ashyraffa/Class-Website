@@ -40,6 +40,12 @@ header {
     align-items: center;
 }
 
+.motto {
+    color: #333;
+    text-align: center;
+    font-size: 20px;
+}
+
 #tom {
     display: block;
     width: 100%;
@@ -83,6 +89,10 @@ a {
         font-size: 12px;
         padding: 9px;
         margin: 5px;
+    }
+
+    .motto {
+        font-size: 12px;
     }
 }
 

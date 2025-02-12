@@ -1,4 +1,4 @@
-// This was used to animate and make drawers for //
+// Ini digunakan untuk animasi drawers a.k.a laci //
 // "questions.html" and "Tugas yang harus dikerjakan.html". //
 
 document.querySelectorAll('.pertanyaan').forEach(button => {
@@ -8,5 +8,5 @@ document.querySelectorAll('.pertanyaan').forEach(button => {
     });
 });
 
-console.log('Okay.')
+
 
