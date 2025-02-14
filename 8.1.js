@@ -1,5 +1,5 @@
 // Pop Up Awal
-window.alert("Sudahkah Anda follow akun Media Sosial Kami...?")
+window.alert("Sudahkah Anda follow akun Media Sosial Kami...?");
 window.alert("Pastikan untuk follow ya :D");
 
 // Slider Foto
