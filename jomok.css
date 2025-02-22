@@ -79,3 +79,10 @@ button:hover {
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .selection {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
