@@ -267,6 +267,8 @@ a {
     border: black;
     border-radius: 5px;
     cursor: pointer;
+    transform: scale(1.3);
+    transition: 2s;
 }
 
 .code {
