@@ -1,0 +1,505 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #f4f4f1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.name > h2 {
+    position: relative;
+    left: 7%;
+}
+
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav > a:hover {
+    color: #f4f4f1c5
+}
+
+#foto {
+    object-fit: cover;
+    width: 1750px;
+    height: 500px;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#prev, #next {
+    background-color: gainsboro;
+    color: #333;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+#prev:hover, #next:hover {
+    background-color: rgba(220, 220, 220, 0.743);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 23%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.card p {
+    color: #555;
+    font-size: 14px;
+}
+
+.card button {
+    background-color: aquamarine;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: lawngreen;
+}
+
+
+.article {
+    text-align: center;
+}
+
+
+.article a {
+    text-decoration: none;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    left: 10%;
+    max-width: 1300px;
+    object-fit: cover;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    max-width: 400px;
+}
+
+.overlay h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.overlay p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.overlay button {
+    background-color: aquamarine;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.overlay button:hover {
+    background-color: lawngreen;
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #f4f4f1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+}
+
+.end > p {
+    position: relative;
+    left: 7%;
+}
+
+.end a {
+    position: relative;
+    left: 7%;
+    text-decoration: none;
+    color: white;
+}
+
+.end a:hover {
+    text-decoration: underline;
+}
+
+.end i {
+    font-size: 11px;
+    position: relative;
+    left: 7%;
+}
+
+.main-content {
+    background: aquamarine;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.section img {
+    width: 50%;
+    max-width: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.inside h1 {
+    font-size: 32px;
+    font-weight: bold;
+    max-width: 600px;
+}
+
+.inside p {
+    font-size: 16px;
+    margin: 20px 0;
+    max-width: 500px;
+    line-height: 24px;
+    padding-top: 12px;
+    text-align: left;
+}
+
+
+  .name a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 7%;
+  }
+
+  .konten {
+    text-align: center;
+  }
+
+  .konten h2, .konten2 h2 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .konten {
+    font-size: 18px;
+  }
+
+  .konten button {
+    background-color: aquamarine;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .konten button:hover {
+    background-color: lawngreen;
+  }
+
+  .konten2 p {
+    font-size: 18px;
+    max-width: 500px;
+  }
+
+
+.body {
+    margin: 25px;
+}
+
+.faq {
+    margin-bottom: 10px;
+}
+
+.pertanyaan {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.jawab {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.kelompok1, .kelompok2 {
+    background-color: #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ .isi {
+   color: white;
+   text-align: left;
+   position: relative;
+   top: 50%;
+   left: -20%;
+}
+
+.isi h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.isi p {
+    font-size: 16px;
+    margin: 20px 0;
+    max-width: 500px;
+    line-height: 24px;
+    padding-top: 12px;
+    text-align: left;
+}
+
+.isi a {
+    text-decoration: none;
+    color: #f4f4f1;
+}
+
+.isi a:hover {
+    text-decoration: underline;
+}
+
+.judul {
+    text-align: center;
+    font-weight: bold;
+}
+
+#viii-1 {
+    width: 800;
+    height: 480;
+}
+
+.plus {
+    text-align: center;
+}
+
+  /* Buat HP */
+@media (max-width: 800px) {
+    #foto {
+        object-fit: cover;
+        width: 768px;
+        height: 300px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+        .section {
+            flex-direction: column; /* Susun ke bawah di HP */
+            text-align: center;
+        }
+    
+        .section img {
+            width: 90%; /* Biar fit di layar HP */
+            max-width: 400px;
+        }
+    
+
+      .overlay {
+        max-width: 80%;
+        left: 5%;
+      }
+      
+      .overlay h1 {
+        font-size: 1.8rem;
+      }
+    
+      .overlay p {
+        font-size: 1rem;
+      }
+  
+      .section {
+          flex-wrap: wrap;
+          justify-content: center;
+          max-width: 500px;
+          max-width: 80%;
+          left: 5%;
+      }
+
+      .title {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 5px; /* Jarak antar menu di HP */
+    }
+
+    .hero {
+        max-width: 700px;
+        position: relative;
+        left: 2%;
+    }
+
+    .isi {
+        position: relative;
+        left: 7%;
+    }
+
+    .isi h2 {
+        font-size: 26px;
+        max-width: 300px;
+    }
+
+    .isi p {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    .isi a {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    #viii-1 {
+        width: 100%;
+        height: 240;
+    }
+
+    .kelompok2 iframe {
+        width: 100%;
+    }
+
+    .plus {
+        max-width: 300px;
+        text-align: center;
+    }
+}
+
+/* HP Jadul banget */
+@media (max-width: 500px) {
+    #foto {
+        object-fit: cover;
+        width: 500px;
+        height: 200px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    .card {
+        width: 23%;
+        background: #121212;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(252, 252, 252, 0);
+        text-align: center;
+    }
+
+    .card p {
+        color: #ffffff;
+    }
+
+    .inside {
+        color: #333;
+    }
+}
+  
