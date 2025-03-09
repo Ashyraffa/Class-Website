@@ -478,28 +478,4 @@ footer {
     }
 }
 
-/* Dark Mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #121212;
-        color: #ffffff;
-    }
 
-    .card {
-        width: 23%;
-        background: #121212;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(252, 252, 252, 0);
-        text-align: center;
-    }
-
-    .card p {
-        color: #ffffff;
-    }
-
-    .inside {
-        color: #333;
-    }
-}
-  
