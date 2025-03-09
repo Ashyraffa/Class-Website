@@ -55,6 +55,26 @@
                 background-color: lawngreen;
             }
 
+            .button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+            }
+
+            button {
+              padding: 10px 20px;
+              margin: 5px;
+              border: 1px solid #ccc;
+              background-color: #f0f0f0;
+              cursor: pointer;
+              border-radius: 5px;
+                }
+
+            button:hover {
+              background-color: #e0e0e0;
+                }
+
             @media (max-width: 768px) {
             .isi  {
             position: relative;
@@ -63,7 +83,7 @@
             color: #333;
             }
 
-            .kelompok2  {
+            .kelompok2 {
                 margin: 0px;
             }
 
@@ -120,7 +140,7 @@
             <div class="judul">
                 <h2>Lihat salah satu hasil dan Prestasi Kami:</h2>
             </div>
-            <div class="projek">
+            <div id="content1" class="projek" style="display: block;">
                 <div class="kelompok2">
                     <img src="foto/3.jpg" alt="STEM">
                     <div class="isi">
@@ -139,7 +159,7 @@
             <br>
             <br>
             <br>
-            <div class="projek">
+            <div id="content2" class="projek" style="display: none;">
                 <div class="kelompok2">
                     <img src="foto/senam.jpg" alt="Senam">
                     <div class="isi">
@@ -151,6 +171,11 @@
                     </div>
                 </div>
             </div>
+            <div class="button">
+                <button onclick="toggleContent('content1')">STEM Kihajar</button>
+                <button onclick="toggleContent('content2')">Senam Anak Indonesia Hebat</button>
+            </div>
+            <br>
             <br>
             <br>
             <footer>
@@ -160,5 +185,6 @@
                     <i>*Kelas 8-1 merupakan bagian dari SMPN 1 Banda Aceh</i>
                 </div>
               </footer>
+              <script src="script.js"></script>
     </body>
 </html>

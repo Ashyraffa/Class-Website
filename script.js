@@ -18,6 +18,19 @@ document.querySelectorAll('.pertanyaan').forEach(button => {
 });
 
 
+function toggleContent(contentId) {
+    const content1 = document.getElementById('content1');
+    const content2 = document.getElementById('content2');
+
+    if (contentId === 'content1') {
+    content1.style.display = 'block';
+    content2.style.display = 'none';
+    } else if (contentId === 'content2') {
+     content1.style.display = 'none';
+     content2.style.display = 'block';
+           }
+      }
+
 
   
 
