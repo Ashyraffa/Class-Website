@@ -59,12 +59,10 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                gap: 10px;
             }
 
             button {
               padding: 10px 20px;
-              margin: 5px;
               border: 1px solid #ccc;
               background-color: #f0f0f0;
               cursor: pointer;
@@ -99,12 +97,26 @@
     <body>
         <header class="title">
             <div class="name">
-              <a href="index.html"><h2>Inti Gayabebas</h2></a>
+              <h2>Inti Gayabebas</h2>
             </div>
-            <nav>
-                <a href="">Our Memories</a>
-                <a href="">Source Code</a>
-            </nav>
+                <button class="hamburger" id="hamburger-btn">More Options</button>
+                <nav id="nav-menu">
+                    <div class="dropdown">
+                    <a href="#">Our Memories</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Bukber Bersama</a>
+                        <a href="">Hari Guru</a>
+                    </div>
+                    </div>
+                    <div class="dropdown">
+                    <a href="#">Tentang Kami</a>
+                    <div class="dropdown-menu">
+                        <a href="">Credits</a>
+                        <a href="">Source Code Website</a>
+                        <a href="">Our Instagram</a>
+                    </div>
+                    </div>
+                </nav>
             </header>
             <div class="main-content">
                 <div class="section">
@@ -138,7 +150,7 @@
                 </div>
             </div>
             <div class="judul">
-                <h2>Lihat salah satu hasil dan Prestasi Kami:</h2>
+                <h2>Lihat salah satu hasil Prestasi dan Karya Kami:</h2>
             </div>
             <div id="content1" class="projek" style="display: block;">
                 <div class="kelompok2">
@@ -171,6 +183,7 @@
                     </div>
                 </div>
             </div>
+            <br>
             <div class="button">
                 <button onclick="toggleContent('content1')">STEM Kihajar</button>
                 <button onclick="toggleContent('content2')">Senam Anak Indonesia Hebat</button>

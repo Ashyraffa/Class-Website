@@ -32,5 +32,16 @@ function toggleContent(contentId) {
       }
 
 
+      document.addEventListener("DOMContentLoaded", () => {
+        const hamburgerBtn = document.getElementById("hamburger-btn");
+        const navMenu = document.getElementById("nav-menu");
+    
+        hamburgerBtn.addEventListener("click", () => {
+            navMenu.style.display = (navMenu.style.display === "block") ? "none" : "block";
+        });
+    });
+    
+
+
   
 

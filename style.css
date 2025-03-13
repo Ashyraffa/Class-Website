@@ -7,8 +7,6 @@ body {
 }
 
 header {
-    position: sticky;
-    top: 0;
     background-color: black;
     padding: 20px 0;
     padding-top: 20px;
@@ -24,6 +22,86 @@ header {
 .name > h2 {
     position: relative;
     left: 7%;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: black;
+    min-width: 150px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 800px) {
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        background: black;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #nav-menu a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+    }
+
+    #nav-menu a:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .hamburger {
+        display: block;
+        background: none;
+        color: white;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 801px) {
+    .hamburger {
+        display: none;
+    }
 }
 
 
