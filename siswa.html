@@ -20,6 +20,31 @@
             }
         </style>
     </head>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBRBxEP14GesirC-xppQ0_VUDVvq969lhg",
+          authDomain: "inti-gayabebas.firebaseapp.com",
+          projectId: "inti-gayabebas",
+          storageBucket: "inti-gayabebas.firebasestorage.app",
+          messagingSenderId: "884174430800",
+          appId: "1:884174430800:web:9fc7f2ba3a74799ea62755",
+          measurementId: "G-D4Z8MCCMGJ"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+        console.log("Firebase success to load!")
+      </script>
     <body>
         <header class="title">
             <div class="name">

@@ -1,4 +1,6 @@
-// JavaScript
+
+
+// Slider Foto
 let fotoIndex = 0;
 let fotoArray = ["foto/hari-guru.jpg", "foto/bersama.jpg"]
 
@@ -10,6 +12,7 @@ function gantiFoto () {
 
 setInterval(gantiFoto, 2000);
 
+// Utk kolom tugas
 document.querySelectorAll('.pertanyaan').forEach(button => {
     button.addEventListener('click', () => {
         const jawab = button.nextElementSibling;
@@ -17,7 +20,7 @@ document.querySelectorAll('.pertanyaan').forEach(button => {
     });
 });
 
-
+// Toggle Konten di Prestasi
 function toggleContent(contentId) {
     const content1 = document.getElementById('content1');
     const content2 = document.getElementById('content2');
@@ -31,7 +34,7 @@ function toggleContent(contentId) {
            }
       }
 
-
+      // Opsi utk pengguna ponsel
       document.addEventListener("DOMContentLoaded", () => {
         const hamburgerBtn = document.getElementById("hamburger-btn");
         const navMenu = document.getElementById("nav-menu");
@@ -40,8 +43,32 @@ function toggleContent(contentId) {
             navMenu.style.display = (navMenu.style.display === "block") ? "none" : "block";
         });
     });
+
+
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        const slides = document.querySelector('.slides');
+        const totalSlides = slides.children.length;
+        if (index >= totalSlides) {
+            currentIndex = 0;
+        } else if (index < 0) {
+            currentIndex = totalSlides - 1;
+        } else {
+            currentIndex = index;
+        }
+        const offset = -currentIndex * 100;
+        slides.style.transform = `translateX(${offset}%)`;
+    }
     
-
-
-  
+    function nextSlide() {
+        showSlide(currentIndex + 1);
+    }
+    
+    function prevSlide() {
+        showSlide(currentIndex - 1);
+    }
+    
+    // Initialize the slider
+    showSlide(currentIndex);
 

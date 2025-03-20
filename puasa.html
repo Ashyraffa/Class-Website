@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buka Puasa Bersama - Our Memories</title>
+        <link rel="icon" href="foto/Screenshot 2025-03-02 074304.png">
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.toggle button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+        </style>
+    </head>
+    <body>
+        <header class="title">
+            <div class="name">
+              <h2>Inti Gayabebas</h2>
+            </div>
+                <button class="hamburger" id="hamburger-btn">More Options</button>
+                <nav id="nav-menu">
+                    <div class="dropdown">
+                    <a href="#">Our Memories</a>
+                    <div class="dropdown-menu">
+                        <a href="">Bukber Bersama</a>
+                        <a href="error.html">Hari Guru</a>
+                        <a href="error.html">Lomba Senam</a>
+                        <a href="error.html">Ulang Tahun Bu Aisha</a>
+                    </div>
+                    </div>
+                    <div class="dropdown">
+                    <a href="#">Tentang Kami</a>
+                    <div class="dropdown-menu">
+                        <a href="error.html">Credits</a>
+                        <a href="error.html">Source Code Website</a>
+                        <a href="siswa.html">Struktur Kelas</a>
+                        <a href="https://www.instagram.com/eight_onechampions/" target="_blank">Our Instagram</a>
+                        <a href="https://smpn1bandaaceh.sch.id" target="_blank">Website Sekolah</a>
+                    </div>
+                    </div>
+                </nav>
+            </header>
+            <br>
+            <div class="judul">
+                <h3>Inilah- ya kenangan pas bukber bareng:)</h3>
+            </div>
+            <main>
+                <div class="slider">
+                    <div class="slides">
+                        <img src="foto/bukber.jpg" alt="Image 1">
+                        <img src="foto/bukber-cewe.jpg" alt="Image 2">
+                        <img src="foto/takjil.jpg" alt="Image 3">
+                    </div>
+                    <div class="toggle">
+                    <button class="prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="next" onclick="nextSlide()">&#10095;</button>
+                    </div>
+                </div>
+            </main>
+            <br>
+            <br>
+            <h2 style="text-align: center;">End of Page, more added soon.</h2>
+            <footer>
+                <div class="end">
+                    <p>© 2025 Inti Gayabebas</p>
+                    <p>Akun Instagram: <a href="https://www.instagram.com/eight_onechampions/" target="_blank">eight_onechampions</a></p>
+                    <i>*Kelas 8-1 merupakan bagian dari SMPN 1 Banda Aceh</i>
+                </div>
+              </footer>
+            <script src="script.js"></script>
+    </body>
+</html>
