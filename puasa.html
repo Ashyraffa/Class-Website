@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Momen saat Bulan Ramadhan (8-1)">
         <title>Buka Puasa Bersama - Our Memories</title>
         <link rel="icon" href="foto/Screenshot 2025-03-02 074304.png">
         <link rel="stylesheet" href="style.css">
@@ -53,6 +54,31 @@ button.prev {
 button.next {
     right: 10px;
 }
+
+.velocity {
+    display: block;
+}
+
+#velocity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    height: 480px;
+}
+
+@media (max-width: 768px) {
+    .velocity {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #velocity {
+        width: 90%;
+        height: auto;
+    }
+}
         </style>
     </head>
     <body>
@@ -93,11 +119,30 @@ button.next {
                         <img src="foto/bukber.jpg" alt="Image 1">
                         <img src="foto/bukber-cewe.jpg" alt="Image 2">
                         <img src="foto/takjil.jpg" alt="Image 3">
+                        <img src="foto/bukber-2.jpg" alt="Image 4">
                     </div>
                     <div class="toggle">
                     <button class="prev" onclick="prevSlide()">&#10094;</button>
                     <button class="next" onclick="nextSlide()">&#10095;</button>
                     </div>
+                </div>
+            </main>
+            <br>
+            <section>
+                <ul>
+                    <li>Gambar 1: Bukber di sekolah</li>
+                    <li>Gambar 2: Anak cewek foto bersama (pas bukber di sekolah)</li>
+                    <li>Gambar 3: Berbagi Takjil moment</li>
+                    <li>Gambar 4: Foto bukber bersama di Museum Aceh</li>
+                </ul>
+            </section>
+            <br>
+            <br>
+            <main>
+                <div class="velocity">
+                    <video id="velocity" controls>
+                       <source src="video/velocity-bullshit.mp4" type="video/mp4">
+                    </video>
                 </div>
             </main>
             <br>
