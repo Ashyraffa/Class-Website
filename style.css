@@ -437,9 +437,9 @@ footer {
     font-weight: bold;
 }
 
-#viii-1 {
-    width: 800;
-    height: 480;
+#viii-1, #kelompok4 {
+    width: 800px;
+    height: 480px;
 }
 
 .plus {
@@ -455,6 +455,19 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Responsive video, utk HP */
+
+@media (max-width: 768px) {
+    video {
+        width: 100%;
+        height: auto; /* Biar aspect ratio tetap */
+        max-width: 400px; /* Bisa diatur juga */
+        max-height: 360px; /* Bisa diatur sesuai kebutuhan */
+        display: block;
+        margin: 0 auto;
+    }
 }
 
   /* Buat HP */
