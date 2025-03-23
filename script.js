@@ -45,6 +45,9 @@ function toggleContent(contentId) {
         });
     });
 
+    
+    document.addEventListener('DOMContentLoaded', () => {
+    
 
     let currentIndex = 0;
 
@@ -72,4 +75,4 @@ function toggleContent(contentId) {
     
     // Initialize the slider
     showSlide(currentIndex);
-
+});
