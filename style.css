@@ -198,6 +198,33 @@ nav > a:hover {
     text-align: center;
 }
 
+.article h1 {
+    font-size: 48px;
+}
+
+@media (max-width: 768px) {
+    .article img {
+        width: 100%;
+        max-width: 400px;
+        max-height: 400px;
+        object-fit: cover;
+    }
+}
+
+.article p {
+    font-size: 20px;
+}
+
+.paragraph a {
+    color: #075dd6;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.paragraph a:hover {
+    text-decoration: underline;
+}
+
 
 .article a {
     text-decoration: none;
@@ -205,6 +232,11 @@ nav > a:hover {
 
 .article a:hover {
     text-decoration: underline;
+}
+
+.paragraph {
+    margin: 35px;
+    text-align: left;
 }
 
 .hero {

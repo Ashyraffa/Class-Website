@@ -3,7 +3,7 @@
 
 // Slider Foto
 let fotoIndex = 0;
-let fotoArray = ["foto/hari-guru.jpg", "foto/bersama.jpg"]
+let fotoArray = ["foto/hari-guru.jpg", "foto/bersama.jpg", "foto/kelas.jpg"]
 
 
 function gantiFoto () {
