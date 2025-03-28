@@ -114,6 +114,7 @@ nav > a {
     margin: 10px;
 }
 
+
 nav > a:hover {
     color: #f4f4f1c5
 }
@@ -666,7 +667,17 @@ footer {
         font-size: 1rem;
       }
 
-      
+      .forphone h1 {
+        font-size: 28px;
+      }
+
+      .forphone p {
+        font-size: 16px;
+      }
+
+      #changingText {
+        font-size: 30px;
+      }
   
       .section {
           flex-wrap: wrap;
@@ -740,4 +751,10 @@ footer {
     }
 }
 
-
+@media (max-width: 1500px) {
+     #photo {
+        object-fit: cover;
+        height: 450px;
+        width: 100%;
+     }
+}
